@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prit Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I m <span>Prit</span> Tilala</h1>
+        </div>
+      </div>  
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dolores voluptatibus vero excepturi delectus quod libero aliquam, consequatur nostrum suscipit labore velit ex quaerat? Itaque harum quibusdam iusto omnis illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nobis!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Dev</span><br>Developing websites</li>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Problem solving</span><br>Lifetime learner</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June,24-July,24</span><br>Intern at Codsoft</li>
+                            <li><span>2023-24</span><br>Innoventaa Technologies</li>
+                            <li><span>2022-23</span><br>Tops Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-25</span><br>BCA, Gls University</li>
+                            <li><span>2021</span><br>HSC,Shakti school,Rajkot</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum suscipit perspiciatis accusamus amet ad unde vero, asperiores impedit eveniet exercitationem?</p>
+                    <a href="#">Learn more..</a>
+                </div>
+                <div>
+                    <h2>Frontend</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum suscipit perspiciatis accusamus amet ad unde vero, asperiores impedit eveniet exercitationem?</p>
+                    <a href="#">Learn more..</a>
+                </div>
+                <div>
+                    <h2>Backend</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum suscipit perspiciatis accusamus amet ad unde vero, asperiores impedit eveniet exercitationem?</p>
+                    <a href="#">Learn more..</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, explicabo.</p>
+                    <a href="#">*</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, explicabo.</p>
+                    <a href="#">*</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>pritptl0369@gmail.com</p>
+                <p>1234567890</p>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text"name="name" placeholder="Your name" required>
+                    <input type="email"name="email" placeholder="Your email" required>
+                    <textarea name="" id="" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
